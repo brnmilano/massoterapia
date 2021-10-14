@@ -10,13 +10,13 @@
   font-style: inherit;
 }
 
-/* font-family: 'Italianno', cursive; */
+/* font-family: 'Dancing Script', cursive; */
 
 /* font-family: 'Montserrat', sans-serif; */
 
 body {
   font-family: 'Montserrat', sans-serif;
-
+  height: 400vh;
 }
 
 /* CONTAINER HEADER */
@@ -31,10 +31,11 @@ body {
   z-index: 50;
   left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   background-color: white;
   box-sizing: border-box;
   box-shadow: 0 0 5px grey;
-  margin-bottom: 40px;
 }
 
 .container-header h1 {
@@ -60,26 +61,82 @@ body {
 
 main {
   background: linear-gradient(180deg, rgba(248, 248, 255, 1) 50%, rgba(105, 105, 105, 1) 100%);
-  padding: 50px 50px;
+  padding: 60px 50px;
   color: black;
   font-weight: 700;
   height: 100%;
 }
 
-/* CONTAINER ERCEPTION */
+/* Container reception */
 
 .reception {
-  display: grid;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  text-align: center;
-  height: 200px;
+  align-items: center;
+  flex-flow: column;
+  height: 280px;
+  margin: 70px 0 20px 0;
 }
 
-/* .mass-img-one {
+.reception h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px;
+  background: -webkit-linear-gradient(#eee, #DAA520);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-} */
+.reception p {
+  font-weight: 500;
+  line-height: 25px;
+}
 
-.massagem-one {
-  height: 150px;
+.reception button {
+  font-size: 22px;
+  background: #DAA520;
+  padding: 10px 10px;
+  margin-top: 35px;
+}
+
+/* First table image */
+
+.table-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-one {
+  height: 800px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+/* Description of the place */
+
+.the-place {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.risk {
+  border: 1px solid black;
+  margin: 0 auto 16px;
+  width: 50px;
+}
+
+.the-place h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.info-studio {
+  display: flex;
+}
+
+.room-two {
+  height: 400px;
+  box-shadow: 0px 0px 10px rgba(218, 165, 32, 0.5);
 }
