@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  height: 800vh;
+  height: 500vh;
 }
 
 /* CONTAINER HEADER */
@@ -60,8 +60,8 @@ body {
 /* MAIN CONTAINER */
 
 main {
-  background: linear-gradient(180deg, rgba(248, 248, 255, 1) 50%, rgba(105, 105, 105, 1) 100%);
-  padding: 60px 50px;
+  background: linear-gradient(162deg, rgba(248,248,255,1) 0%, rgba(250,250,210,0.15) 50%);
+  padding: 60px 0;
   color: black;
   font-weight: 700;
   height: 100%;
@@ -204,9 +204,9 @@ main {
 /* Testimonial */
 
 .testimonial {
-  height: 600px;
-  background: chartreuse;
+  height: 400px;
   padding: 0 90px;
+  margin-bottom: 50px;
 }
 
 .testimonial h1 {
@@ -214,13 +214,18 @@ main {
   text-transform: uppercase;
   font-size: 35px;
   font-weight: 300;
-  margin: 25px 0;
+  margin: 25px 0 40px 0;
 }
 
 .all-testimonials {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.all-testimonials p {
+  line-height: 22px;
+  font-weight: 400;
 }
 
 #mid {
@@ -230,4 +235,108 @@ main {
 .img-woman {
   height: 100px;
   border-radius: 80px;
+  margin: 20px 0;
+}
+
+.stars {
+  margin-top: 10px;
+  height: 20px;
+}
+
+/* Gallery */
+
+.container-gallery {
+  height: 810px;
+  padding: 0 90px;
+}
+
+.container-gallery h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 300;
+  margin: 25px 0 40px 0;
+}
+
+#container-espc {
+  margin-bottom: 25px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-gallery {
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#img-espc {
+  margin: 0 25px;
+}
+
+/* Vip */
+
+.container-vips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  background-color: #B8860B;
+  margin-top: 150px;
+  padding: 50px 100px;
+}
+
+.txt-vip {
+  line-height: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.txt-vip p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.txt-vip h1 {
+  font-size: 28px;
+}
+
+.txt-vip button {
+  margin-top: 25px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid black;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.txt-vip a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-vip {
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+/* Mark your massage */
+
+.mark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  padding-left: 100px;
+  background: #FAFAD2;
+}
+
+.img-mark {
+  height: 600px;
 }
