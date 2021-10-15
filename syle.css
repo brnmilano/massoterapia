@@ -14,6 +14,10 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   height: 500vh;
@@ -60,7 +64,7 @@ body {
 /* MAIN CONTAINER */
 
 main {
-  background: linear-gradient(162deg, rgba(248,248,255,1) 0%, rgba(250,250,210,0.15) 50%);
+  background: linear-gradient(162deg, rgba(248, 248, 255, 1) 0%, rgba(250, 250, 210, 0.15) 50%);
   padding: 60px 0;
   color: black;
   font-weight: 700;
@@ -69,7 +73,7 @@ main {
 
 /* Container reception */
 
-.reception {
+.container-reception {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +82,7 @@ main {
   margin: 70px 0 20px 0;
 }
 
-.reception h1 {
+.container-reception h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 120px;
   background: -webkit-linear-gradient(#eee, #DAA520);
@@ -86,12 +90,12 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-.reception p {
+.container-reception p {
   font-weight: 500;
   line-height: 25px;
 }
 
-.reception button {
+.container-reception button {
   font-size: 22px;
   background: #DAA520;
   padding: 10px 10px;
@@ -203,13 +207,13 @@ main {
 
 /* Testimonial */
 
-.testimonial {
+.container-testimonial {
   height: 400px;
   padding: 0 90px;
   margin-bottom: 50px;
 }
 
-.testimonial h1 {
+.container-testimonial h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 35px;
@@ -323,7 +327,6 @@ main {
 .img-vip {
   height: 350px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 /* Mark your massage */
@@ -332,11 +335,121 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 600px;
+  height: 570px;
   padding-left: 100px;
   background: #FAFAD2;
+  text-transform: uppercase;
 }
 
 .img-mark {
-  height: 600px;
+  height: 570px;
+  margin-left: 140px;
+  border-radius: 0 0 0 20px;
+}
+
+.mark p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.mark h1 {
+  font-size: 85px;
+  padding-right: 40px;
+}
+
+.mark a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.img-wpp {
+  height: 13px;
+  margin-left: 10px;
+}
+
+/* Footer */
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  background: #FAFAD2;
+  padding: 50px;
+}
+
+.title-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-footer h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #DAA520;
+  font-weight: bold;
+}
+
+.img-footer {
+  height: 20px;
+}
+
+.div-inv {
+  margin: 40px 0;
+}
+
+.div-inv a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-menu h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.container-menu a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.container-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-address h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.map {
+  height: 200;
+  width: 400;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.container-payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-payment h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.container-payment p {
+  margin-bottom: 10px;
 }

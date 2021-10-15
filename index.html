@@ -14,7 +14,7 @@
 
 <body>
   <!-- Container header -->
-  <header>
+  <header id="reception">
     <section class="container-header">
       <h1>Cantinho do amor</h1>
       <nav class="navigation">
@@ -28,7 +28,7 @@
   <main>
     <div>
       <!-- Container reception -->
-      <section class="reception">
+      <section class="container-reception">
         <div>
           <h1>Cantinho do amor</h1>
         </div>
@@ -47,6 +47,9 @@
           <img class="room-one" src="./IMG/sala1.png" alt="Massagem">
         </div>
       </section>
+
+      <div id="studio">
+      </div>
 
       <!-- Description of the place -->
       <section class="the-place">
@@ -121,11 +124,12 @@
             Cardápio de bebidas geladas e quentes após a massagem.
           </p>
         </div>
-
+        <div id="testimonial">
+        </div>
       </section>
 
       <!-- Testimonial -->
-      <section class="testimonial">
+      <section class="container-testimonial">
         <div class="risk">
         </div>
         <h1>Depoimentos</h1>
@@ -168,12 +172,11 @@
             <img class="stars" src="./IMG/recomendacao.svg" alt="Avaliação">
           </div>
         </div>
-
       </section>
 
       <!-- Gallery -->
-      <section>
-        <div class="risk">
+      <section">
+        <div id="gallery" class="risk">
         </div>
         <div class="container-gallery">
           <h1>Galeria</h1>
@@ -188,36 +191,91 @@
             <img class="img-gallery" src="./IMG/massagem3.png" alt="">
           </div>
         </div>
-      </section>
+        </section>
 
-      <!-- Vip -->
-      <section class="container-vips">
-        <div class="txt-vip">
-          <p>Clube de massagem!</p>
-          <h1>Cantinho do vip member</h1>
-          <p>Planos de massagem a partir de R$500,00 com vantagens exclusivas.</p>
-          <button><a href="">Quero ser membro</a></button>
-        </div>
-        <div>
-          <img class="img-vip" src="./IMG/vip.png" alt="Vip Member">
-        </div>
-      </section>
+        <!-- Vip -->
+        <section class="container-vips">
+          <div class="txt-vip">
+            <p>Clube de massagem!</p>
+            <h1>Cantinho do vip member</h1>
+            <p>Planos de massagem a partir de R$500,00 com vantagens exclusivas.</p>
+            <button><a href="">Quero ser membro</a></button>
+          </div>
+          <div>
+            <img class="img-vip" src="./IMG/vip.png" alt="Vip Member">
+          </div>
+        </section>
 
-      <!-- Mark your massage -->
-      <section class="mark">
-        <div>
-          <p>
-            Cuide do seu bem estar!
-          </p>
-          <h1>
-            Agende sua massagem agora
-          </h1>
-          <a href="">Clique aqui para agendar</a><img src="./IMG/wpp.svg" alt="">
-        </div>
-        <img class="img-mark" src="./IMG/sala3.png" alt="">
-      </section>
+        <!-- Mark your massage -->
+        <section class="mark">
+          <div>
+            <p>
+              Cuide do seu bem estar!
+            </p>
+            <h1>
+              Agende agora a sua massagem
+            </h1>
+            <a href="">Clique aqui para agendar<img class="img-wpp" src="./IMG/wpp.svg" alt=""></a>
+          </div>
+          <img class="img-mark" src="./IMG/sala3.png" alt="">
+        </section>
     </div>
   </main>
+
+  <!-- Footer -->
+  <footer class="container-footer">
+    <section class="title-footer">
+
+      <h1>Cantinho do amor</h1>
+      <div class="div-inv">
+        <a href="">(61) 9 4002-8922</a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/bruno.milano.566/" target="_blank"><img class="img-footer"
+            src="./IMG/face.svg" alt=""></a>
+        <a href="https://www.google.com/maps/place/St.+Sudoeste+-+Cruzeiro+%2F+Sudoeste+%2F+Octogonal,+Bras%C3%ADlia+-+DF,+70297-400/data=!4m2!3m1!1s0x935a3087cc1238bf:0xf493340f952cbaa2?sa=X&ved=2ahUKEwjKiO-d8szzAhUmp5UCHQVMDRcQ8gF6BAgeEAE"
+          target="_blank"><img class="img-footer" src="./IMG/google.svg" alt=""></a>
+        <a href="https://www.instagram.com/milanobrn/" target="_blank"><img class="img-footer" src="./IMG/insta.svg"
+            alt=""></a>
+        <a href="https://open.spotify.com/artist/1GpHohMWr8ZzO6CkaKOC6G" target="_blank"><img class="img-footer"
+            src="./IMG/spotify.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/brunomilano/" target="_blank"><img class="img-footer"
+            src="./IMG/linkedin.svg" alt=""></a>
+      </div>
+    </section>
+
+    <section class="container-menu">
+
+      <h1>Menu</h1>
+      <a href="#reception">Início</a>
+      <a href="#studio">Estúdio</a>
+      <a href="#testimonial">Depoimentos</a>
+      <a href="#gallery">Galeria</a>
+
+    </section>
+
+    <section class="container-address">
+      <h1>Endereço</h1>
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30713.42175331135!2d-47.944497026326424!3d-15.794580399259567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3087cc1238bf%3A0xf493340f952cbaa2!2sSt.%20Sudoeste%20-%20Cruzeiro%20%2F%20Sudoeste%20%2F%20Octogonal%2C%20Bras%C3%ADlia%20-%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1634319032392!5m2!1spt-BR!2sbr"
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="container-payment">
+      <h1>
+        Formas de pagamento
+      </h1>
+      <p>
+        Dinheiro e PIX
+      </p>
+      <p>
+        Cartão de débio e crédito
+      </p>
+      <p>
+        VISA, MasterCard, Elo
+      </p>
+    </section>
+  </footer>
 
   <script src="./days.js"></script>
 </body>
