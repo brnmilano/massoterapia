@@ -4,6 +4,6 @@ function carregar() {
   var day = data.getDay()
 
   if (day === 0 || day === 6) {
-    days.innerHTML = `Fechado`
+    days.innerHTML = 'fechado'
   }
 }
