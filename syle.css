@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  height: 540vh;
+  height: 530vh;
 }
 
 /* CONTAINER HEADER */
@@ -1022,7 +1022,7 @@ main {
     justify-content: center;
   }
   .img-vip {
-    height: 250px;
+    height: 250git px;
   }
   .mark {
     display: grid;
