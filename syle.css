@@ -99,6 +99,8 @@ main {
   background: #DAA520;
   padding: 10px 10px;
   margin-top: 35px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 /* First table image */
@@ -271,6 +273,18 @@ main {
 }
 
 .img-gallery {
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.img-gallery-res {
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.img-gallery-res {
   height: 350px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
@@ -472,6 +486,12 @@ main {
   .img-gallery {
     height: 250px;
   }
+  .img-gallery {
+    height: 300px;
+  }
+  .img-gallery-res {
+    height: 300px;
+  }
   .info-studio {
     margin: 0;
   }
@@ -539,6 +559,12 @@ main {
   }
   .container-gallery {
     height: 680px;
+  }
+  .img-gallery {
+    height: 250px;
+  }
+  .img-gallery-res {
+    height: 250px;
   }
   .container-vips {
     margin: 0;
@@ -627,6 +653,9 @@ main {
     padding: 0;
   }
   .img-gallery {
+    height: 200px;
+  }
+  .img-gallery-res {
     height: 200px;
   }
   .container-vips {
@@ -734,6 +763,21 @@ main {
   .container-testimonial {
     height: 480px;
   }
+  .container-gallery {
+    height: 500px;
+  }
+  .img-gallery {
+    height: 180px;
+  }
+  .img-gallery-res {
+    height: 180px;
+  }
+  #container-espc {
+    margin-bottom: 15px;
+  }
+  #img-espc {
+    margin: 0 15px;
+  }
   .img-mark {
     height: 350px;
   }
@@ -747,6 +791,12 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+  .container-header h1 {
+    font-size: 33px;
+  }
+  .navigation a {
+    font-size: 11px;
+  }
   .container-reception h1 {
     font-size: 85px;
   }
@@ -769,15 +819,387 @@ main {
     font-size: 13px;
     line-height: 22px;
   }
+  .container-gallery {
+    height: 1300px;
+  }
   .img-container {
     display: grid;
-    align-items: center;
-    justify-content: flex-start;
   }
-  #img-espc {
+  #container-espc {
     margin: 0;
   }
-  .responsive {
+  #img-espc {
+    margin: 0 0 20px 0;
+  }
+  .img-gallery {
+    margin-bottom: 20px;
+    height: 280px;
+  }
+  .img-gallery-res {
     display: none;
+  }
+  .txt-vip {
+    line-height: 30px;
+  }
+  .txt-vip p {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .txt-vip h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .txt-vip button {
+    padding: 15px 30px;
+    font-size: 12px;
+  }
+  .img-vip {
+    height: 220px;
+  }
+  .mark {
+    height: 268px;
+  }
+  .img-mark {
+    height: 270px;
+  }
+  .mark p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .mark h1 {
+    font-size: 20px;
+    padding-right: 25px;
+  }
+  .mark a {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .container-footer {
+    flex-direction: column;
+    height: 730px;
+  }
+  .title-footer h1 {
+    font-size: 60px;
+    margin-top: 25px;
+  }
+  .img-footer {
+    height: 25px;
+  }
+  .div-inv a {
+    font-size: 16px;
+    padding-bottom: 50px;
+    padding: 0;
+  }
+  .container-menu {
+    align-items: center;
+    margin-top: 35px;
+  }
+  .container-menu h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .container-menu a {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .container-address {
+    align-items: center;
+    margin-top: 35px;
+  }
+  .container-address h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .map {
+    height: 220px;
+    width: 420px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  }
+  .container-payment {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container-header {
+    display: grid;
+    text-align: center;
+    height: 70px;
+  }
+  .container-header h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .navigation a {
+    font-size: 12px;
+    margin: 0 15px 0 0;
+  }
+  .container-reception {
+    height: 280px;
+    margin: 0;
+  }
+  .container-reception h1 {
+    font-size: 55px;
+  }
+  .container-reception button {
+    border-radius: 5px;
+  }
+  .room-one {
+    height: 230px;
+  }
+  .the-place h1 {
+    margin: 25px 0 40px;
+  }
+  .info-studio {
+    display: grid;
+    height: 420px;
+  }
+  .content-studio {
+    width: 100%;
+    margin: 0;
+  }
+  .content-studio h2 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .content-studio p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .room-two {
+    height: 230px;
+    margin: 0;
+  }
+  .place-items {
+    display: grid;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    height: 600px;
+  }
+  .img-items {
+    margin-top: 15px;
+  }
+  .container-testimonial {
+    height: 1100px;
+    padding: 0 20px;
+    margin: 50px 0 0 0;
+  }
+  .all-testimonials {
+    display: grid;
+  }
+  #mid {
+    margin: 50px 0;
+  }
+  .container-gallery {
+    height: 1065px;
+  }
+  .img-gallery {
+    height: 230px;
+  }
+  .img-gallery-res {
+    height: 230px;
+  }
+  .container-vips {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+  .txt-vip {
+    text-align: center;
+  }
+  .txt-vip p {
+    margin: 0;
+  }
+  .txt-vip h1 {
+    margin: 0;
+  }
+  .res-img-vip {
+    display: flex;
+    justify-content: center;
+  }
+  .img-vip {
+    height: 250px;
+  }
+  .mark {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding: 10px;
+  }
+  .img-mark {
+    border-radius: 5px;
+  }
+  .mark p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .mark h1 {
+    font-size: 19px;
+    padding: 0;
+  }
+  .mark a {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .title-footer h1 {
+    font-size: 45px;
+    margin: 0;
+  }
+  .container-menu {
+    margin: 0;
+  }
+  .container-address {
+    margin: 0;
+  }
+  .map {
+    height: 180px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container-reception {
+    height: 260px;
+  }
+  .container-reception h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .container-reception p {
+    font-weight: 500;
+    line-height: 25px;
+  }
+  .container-reception button {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .room-one {
+    height: 220px;
+  }
+  .container-gallery {
+    height: 980px;
+  }
+  .img-gallery {
+    height: 210px;
+  }
+  .img-gallery-res {
+    height: 210px;
+  }
+  .img-vip {
+    height: 260px;
+  }
+  .img-mark {
+    height: 250px;
+  }
+  .map {
+    height: 170px;
+    width: 330px;
+  }
+  .mark h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container-header h1 {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .navigation a {
+    font-size: 11px;
+    margin: 0 15px 0 0;
+  }
+  .room-one {
+    height: 210px;
+  }
+  .room-two {
+    height: 210px;
+  }
+  .the-place {
+    margin: 0 25px
+  }
+  .img-vip {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-header {
+    display: grid;
+    text-align: center;
+    height: 70px;
+  }
+  .container-header h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .navigation a {
+    font-size: 10px;
+    margin: 0 7px 0 7px;
+  }
+  .container-reception h1 {
+    font-size: 45px;
+  }
+  .container-reception p {
+    font-size: 14px;
+  }
+  .room-one {
+    height: 190px;
+  }
+  .the-place {
+    margin: 20px;
+  }
+  .the-place h1 {
+    font-size: 30px;
+    margin: 15px 25px;
+  }
+  .info-studio {
+    height: 320px;
+  }
+  .content-studio h2 {
+    font-size: 16px;
+  }
+  .content-studio p {
+    font-size: 11px;
+  }
+  .room-two {
+    margin-top: 10px;
+    height: 190px;
+  }
+  .img-items {
+    margin-top: 25px;
+  }
+  .place-items h1 {
+    margin-bottom: 5px;
+  }
+  .container-testimonial h1 {
+    font-size: 30px;
+  }
+  .img-gallery {
+    height: 180px;
+  }
+  .container-gallery {
+    height: 880px;
+  }
+  .img-vip {
+    height: 220px;
+  }
+  .img-mark {
+    height: 220px;
+  }
+  .container-footer {
+    padding: 20px;
+  }
+  .title-footer h1 {
+    font-size: 40px;
+  }
+  .map {
+    height: 180px;
+    width: 280px;
   }
 }
